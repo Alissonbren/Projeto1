@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
+    - target: {fileID: 4174759759211773274, guid: fb561d9b92187bd4ca32fa3d94ed0960, type: 3}
+      propertyPath: m_TagString
+      value: chao
+      objectReference: {fileID: 0}
     - target: {fileID: 7703676598089186999, guid: fb561d9b92187bd4ca32fa3d94ed0960, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.45
@@ -320,7 +324,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4174759759211773274, guid: fb561d9b92187bd4ca32fa3d94ed0960, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1099551663}
   m_SourcePrefab: {fileID: 100100000, guid: fb561d9b92187bd4ca32fa3d94ed0960, type: 3}
 --- !u!1001 &721967285
 PrefabInstance:
@@ -374,6 +381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7431193507422126250, guid: 5200d9e080fbf78448aed2aa13aa10a9, type: 3}
+      propertyPath: m_TagString
+      value: chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -382,6 +393,26 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2063162327}
   m_SourcePrefab: {fileID: 100100000, guid: 5200d9e080fbf78448aed2aa13aa10a9, type: 3}
+--- !u!1 &1099551658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4174759759211773274, guid: fb561d9b92187bd4ca32fa3d94ed0960, type: 3}
+  m_PrefabInstance: {fileID: 720041950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1099551663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099551658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234d65ba606659346b79048e5fc86593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 10
+  focaPulo: 10
+  noChao: 0
 --- !u!1001 &1447421368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -393,6 +424,10 @@ PrefabInstance:
     - target: {fileID: 3683288063080002039, guid: b799c2d84be408544ab5f9f96ac127f9, type: 3}
       propertyPath: m_Name
       value: Square
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683288063080002039, guid: b799c2d84be408544ab5f9f96ac127f9, type: 3}
+      propertyPath: m_TagString
+      value: chao
       objectReference: {fileID: 0}
     - target: {fileID: 5081769466032690742, guid: b799c2d84be408544ab5f9f96ac127f9, type: 3}
       propertyPath: m_LocalPosition.x
